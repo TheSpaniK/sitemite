@@ -1,0 +1,21 @@
+Kurulum için yapmanız gerekenler:
+1.settings dizinindeki settings dosyasını açın
+
+2.Gerekli yerleri doldurun veritabanı bilgilerini doğru girin yoksa sistemi çalışmaz!
+
+3.Settings dosyasını halletikten sonra admin klasörüne gelin
+
+4.htaccess dosyasını açın ve AuthUserFile kısmının yanındaki dosya yolunu .htpasswd sonda olacak
+şekilde verin dosya konumunu doğru girin aksi taktirde hata alırsınız!
+
+5.Eğer admin paneli şifrenizi değiştirmek isterseniz admin klasörü içindeki .htpasswd dosyasını
+açın ilk hali admin:admin123 şeklinde olacaktır admin kısmını silin ve oraya istediğiniz 
+kullanıcı adını girin ve sonra admin123 kısmınada istediğiniz şifreyi girin
+ 
+ÖNEMLİ: iki nokta üstüste ":" sakın silmeyin çalışmaz!
+
+NOT: .htpasswd dosyasından şifre ve kullanıcı adını değiştirmesseniz 
+kullanıcı adı: admin şifre: admin123 
+şeklinde olacaktır
+
+Kurulum bu kadardı detaylı açıklama sitededir iyi günler :)
